@@ -11,7 +11,7 @@
   </head>
   <body dir="rtl">
     <!-- Start Navbar -->
-    <nav class="d-fle">
+    <nav>
       <div
         class="d-flex justify-content-md-around justify-content-between align-items-center p-2"
       >
@@ -20,10 +20,14 @@
             <img
               src="./images/logo.png"
               alt="logo"
-              class="cursor-pointer"
+              class="cursor-pointer img-logo1"
               height="55"
             />
           </span>
+          <i
+            class="fas fa-list-ul cursor-pointer d-block d-md-none"
+            onclick="toggleActive()"
+          ></i>
           <span>
             <ul
               class="justify-content-around align-items-start m-0 gap-3 d-none d-md-flex"
@@ -79,17 +83,20 @@
             </ul>
           </span>
         </div>
+        <span>
+          <img
+            src="./images/logo.png"
+            alt="logo"
+            class="cursor-pointer img-logo2"
+            height="55"
+          />
+        </span>
         <div
           class="d-flex justify-content-around align-items-center gap-3 position-relative"
         >
-          <i
-            class="fas fa-list-ul cursor-pointer d-block d-md-none"
-            onclick="toggleActive()"
-          ></i>
           <div class="search-icon">
             <i class="fa fa-search"></i>
           </div>
-
           <div class="search-modal">
             <div
               class="search-modal-content d-flex flex-column justify-content-center py-3 px-5"
@@ -110,17 +117,21 @@
             <i class="far fa-shopping-cart cursor-pointer"></i>
           </a>
           <span
-            class="bg-primary text-light rounded-circle px-1 position-absolute"
-            style="font-size: 10px; left: 145; top: 0"
-            id="mySpan"
+            class="bg-primary text-light rounded-circle px-1 position-absolute number-item"
+            style="font-size: 10px; left: 160; top: 0"
             >2</span
           >
           <button
-            class="bg-primary border-0 px-3 py-1 text-light rounded"
+            class="bg-primary border-0 px-3 py-1 text-light rounded user-login"
             style="font-size: 16px"
           >
             <a href="./log-in.html" class="log"> ورود و عضویت</a>
           </button>
+          <span class="cursor-pointer">
+            <a href="./log-in.html" style="color: #000000">
+              <i class="far fa-user-plus user-login-icon"></i
+            ></a>
+          </span>
         </div>
       </div>
       <div id="nav-menu" style="display: none">
