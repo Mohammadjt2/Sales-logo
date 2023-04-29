@@ -1,0 +1,782 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/font-awesome/all.min.css" />
+    <link rel="stylesheet" href="./css/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/Responsive.css" />
+    <title>لوگو فروش</title>
+  </head>
+  <body dir="rtl">
+    <!-- Start Navbar -->
+    <nav class="d-fle">
+      <div
+        class="d-flex justify-content-md-around justify-content-between align-items-center p-2"
+      >
+        <div class="d-flex justify-content-around align-items-center">
+          <span>
+            <img
+              src="./images/logo.png"
+              alt="logo"
+              class="cursor-pointer"
+              height="55"
+            />
+          </span>
+          <span>
+            <ul
+              class="justify-content-around align-items-start m-0 gap-3 d-none d-md-flex"
+              style="color: #007aff"
+            >
+              <li class="cursor-pointer list">
+                <a href="./index.html">خانه</a>
+              </li>
+              <li class="cursor-pointer list">
+                <a href="./blog.html">بلاگ</a>
+              </li>
+              <li class="cursor-pointer sub list">
+                <a href="./shop.html">دسته بندی ها</a>
+                <i class="fas fa-angle-down" style="font-size: 12px"></i>
+                <div class="submenu">
+                  <ul>
+                    <li><a href="./product.html">رایگان</a></li>
+                    <li><a href="./product.html">انتزاعی</a></li>
+                    <li><a href="./product.html">اشیاء</a></li>
+                    <li><a href="./product.html">متفرقه</a></li>
+                    <li><a href="./product.html">جذابترین ها</a></li>
+                    <li><a href="./product.html">تایپوگرافی</a></li>
+                    <li><a href="./product.html">مجموعه</a></li>
+                    <li><a href="./product.html">گردینت و چند رنگ</a></li>
+                    <li><a href="./product.html">تایپوگرافی</a></li>
+                    <li><a href="./product.html">گل و برگ</a></li>
+                    <li><a href="./product.html">حیوانات و پرندگان</a></li>
+                    <li><a href="./product.html">لوگوی تصویری</a></li>
+                    <li><a href="./product.html">لوگوی اشکال هندسی</a></li>
+                    <li><a href="./product.html">مشاغل</a></li>
+                    <li><a href="./product.html">خانه و درخت</a></li>
+                    <li><a href="./product.html">لوگو های سمبلیک</a></li>
+                    <li><a href="./product.html">پربازدیدترین ها</a></li>
+                    <li><a href="./product.html">شخصیت انسانی</a></li>
+                    <li><a href="./product.html">ورزشی</a></li>
+                    <li><a href="./product.html">لوگوهای ترکیبی</a></li>
+                    <li><a href="./product.html">سیاه و سفید</a></li>
+                    <li><a href="./product.html">میوه ها و سبزی ها</a></li>
+                    <li><a href="./product.html">حشرات</a></li>
+                    <li><a href="./product.html">لوگو آیکن</a></li>
+                    <li><a href="./product.html">لوگوهای اختصاری</a></li>
+                    <li><a href="./product.html">لاکچری</a></li>
+                    <li><a href="./product.html">کارت ویزیت</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="cursor-pointer list">
+                <a href="about-us.html">درباره ما</a>
+              </li>
+              <li class="cursor-pointer list">
+                <a href="contact-us.html">تماس با ما</a>
+              </li>
+            </ul>
+          </span>
+        </div>
+        <div
+          class="d-flex justify-content-around align-items-center gap-3 position-relative"
+        >
+          <i
+            class="fas fa-list-ul cursor-pointer d-block d-md-none"
+            onclick="toggleActive()"
+          ></i>
+          <div class="search-icon">
+            <i class="fa fa-search"></i>
+          </div>
+          <div class="search-modal">
+            <div
+              class="search-modal-content d-flex flex-column justify-content-center py-3 px-5"
+              style="border-radius: 10px; width: 80%; background-color: #e9ecef"
+            >
+              <input
+                type="text"
+                placeholder="دنبال چی هستی؟"
+                class="p-2 rounded-2 m-1"
+                style="border: 2px solid #505462"
+              />
+              <button class="bg-primary p-2 rounded-2 m-1" style="color: #fff">
+                جستجو کن
+              </button>
+            </div>
+          </div>
+          <a href="./cart.html" style="color: #000000">
+            <i class="far fa-shopping-cart cursor-pointer"></i>
+          </a>
+          <span
+            class="bg-primary text-light rounded-circle px-1 position-absolute"
+            style="font-size: 10px; left: 145; top: 0"
+            >2</span
+          >
+          <button
+            class="bg-primary border-0 px-3 py-1 text-light rounded"
+            style="font-size: 16px"
+          >
+            <a href="./log-in.html" class="log"> ورود و عضویت</a>
+          </button>
+        </div>
+      </div>
+      <div id="nav-menu" style="display: none">
+        <ul style="color: #007aff">
+          <li class="cursor-pointer pt-2 list">
+            <a href="./index.html">خانه</a>
+          </li>
+          <hr />
+          <li class="cursor-pointer list"><a href="./blog.html">بلاگ</a></li>
+          <hr />
+          <li class="cursor-pointer list" onclick="toggleActivesSub2()">
+            <a href="./shop.html">دسته بندی ها</a>
+            <i class="fas fa-angle-down" style="font-size: 12px"></i>
+            <div class="submenu2">
+              <ul>
+                <a href="#" href=""></a>
+                <li><a href="./product.html">رایگان</a></li>
+                <li><a href="./product.html">انتزاعی</a></li>
+                <li><a href="./product.html">اشیاء</a></li>
+                <li><a href="./product.html">متفرقه</a></li>
+                <li><a href="./product.html">جذابترین ها</a></li>
+                <li><a href="./product.html">تایپوگرافی</a></li>
+                <li><a href="./product.html">مجموعه</a></li>
+                <li><a href="./product.html">گردینت و چند رنگ</a></li>
+                <li><a href="./product.html">تایپوگرافی</a></li>
+                <li><a href="./product.html">گل و برگ</a></li>
+                <li><a href="./product.html">حیوانات و پرندگان</a></li>
+                <li><a href="./product.html">لوگوی تصویری</a></li>
+                <li><a href="./product.html">لوگوی اشکال هندسی</a></li>
+                <li><a href="./product.html">مشاغل</a></li>
+                <li><a href="./product.html">خانه و درخت</a></li>
+                <li><a href="./product.html">لوگو های سمبلیک</a></li>
+                <li><a href="./product.html">پربازدیدترین ها</a></li>
+                <li><a href="./product.html">شخصیت انسانی</a></li>
+                <li><a href="./product.html">ورزشی</a></li>
+                <li><a href="./product.html">لوگوهای ترکیبی</a></li>
+                <li><a href="./product.html">سیاه و سفید</a></li>
+                <li><a href="./product.html">میوه ها و سبزی ها</a></li>
+                <li><a href="./product.html">حشرات</a></li>
+                <li><a href="./product.html">لوگو آیکن</a></li>
+                <li><a href="./product.html">لوگوهای اختصاری</a></li>
+                <li><a href="./product.html">لاکچری</a></li>
+                <li><a href="./product.html">کارت ویزیت</a></li>
+              </ul>
+            </div>
+          </li>
+          <hr />
+          <li class="cursor-pointer list">
+            <a href="about-us.html">درباره ما</a>
+          </li>
+          <hr />
+          <li class="cursor-pointer list">
+            <a href="contact-us.html">تماس با ما</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Swiper -->
+    <div class="position-relative">
+      <swiper-container class="mySwiper" navigation="true" dir="ltr">
+        <swiper-slide>
+          <img src="./images/swiper.jpg" alt="swiper" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./images/swiper.jpg" alt="swiper" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./images/swiper.jpg" alt="swiper" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./images/swiper.jpg" alt="swiper" />
+        </swiper-slide>
+        <swiper-slide>
+          <img src="./images/swiper.jpg" alt="swiper" />
+        </swiper-slide>
+      </swiper-container>
+      <div class="text-center text-light position-absolute title-swiper">
+        <h2>جذابترین ایده های طراحی برند</h2>
+        <h5 class="py-3">بیش از 4000 طرح لایه باز و آماده</h5>
+        <div class="d-flex justify-content-center align-items-center">
+          <input
+            type="search"
+            placeholder="جستجو"
+            class="py-1 px-2 rounded-end-5 w-75 bg-light"
+          />
+          <i
+            class="fas fa-search cursor-pointer bg-light p-2 text-dark rounded-start-5"
+          ></i>
+        </div>
+      </div>
+    </div>
+    <!-- End Swiper -->
+
+    <!-- Start Bottom-Swiper -->
+    <section>
+      <div
+        class="bg-primary text-light d-flex justify-content-around align-items-center flex-wrap py-3"
+      >
+        <div
+          class="d-flex justify-content-around align-items-center gap-4 flex-column flex-md-row"
+        >
+          <h5 class="m-1">همه طرح های رایگان برای امروز</h5>
+          <button class="bg-warning px-5 py-2 rounded-5 m-1">
+            <i class="far fa-bell"></i>
+            بزار ببینم
+          </button>
+        </div>
+        <div
+          class="d-flex justify-content-around align-items-center gap-4 flex-column flex-md-row"
+        >
+          <h5 class="m-1">تعرفه ها و خدمات رایگان لوگوفروش</h5>
+          <button class="bg-warning px-5 py-2 rounded-5 m-1">
+            <i class="far fa-edit"></i>
+            چگونه از لوگوها استفاده کنیم؟
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- End Bottom-Swiper -->
+
+    <!-- Start Cart -->
+    <section class="text-center bg-secondary-subtle">
+      <h3 class="p-4">/ جدیدترین طرح ها و ایده ها /</h3>
+      <section class="container-fluid">
+        <div class="row px-xl-5">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <button
+        class="bg-danger text-light px-5 py-2 m-4 rounded-3 m-2 font-size-btn"
+      >
+        مشاهده بیشتر
+      </button>
+    </section>
+    <!-- End Cart -->
+
+    <!-- Start Img -->
+    <section class="p-">
+      <h2 class="text-center p-4">محبوبترین دسته بندی ها</h2>
+      <div class="container-fluid container">
+        <div class="row pb-5">
+          <div class="p-2 col-12 col-sm-6 col-xl-3">
+            <img
+              src="./images/code.jpeg"
+              alt="Image 1"
+              class="rounded-3"
+            />
+          </div>
+          <div class="p-2 col-12 col-sm-6 col-xl-3">
+            <img
+              src="./images/code.jpeg"
+              alt="Image 2"
+              class="rounded-3"
+            />
+          </div>
+          <div class="p-2 col-12 col-sm-6 col-xl-3">
+            <img
+              src="./images/code.jpeg"
+              alt="Image 3"
+              class="rounded-3"
+            />
+          </div>
+          <div class="p-2 col-12 col-sm-6 col-xl-3">
+            <img
+              src="./images/code.jpeg"
+              alt="Image 4"
+              class="rounded-3"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Img -->
+    <!-- Start Weblog -->
+    <section class="">
+      <h2 class="text-center p-4">جدیدترین مطالب آموزشی سایت</h2>
+      <div class="container-fluid container">
+        <div class="row">
+          <div class="p-3 col-12 col-sm-6 col-xl-4 col-xxl-2 text-center">
+            <img
+              src="./images/code.jpeg"
+              alt="Image 1"
+              class="rounded-3"
+            />
+            <h4>متن تستی</h4>
+            <span>1402/07/02</span>
+            <p>متن آزمایشی درمورد لوگو ونحوی طراحی آن به دست بشریت.</p>
+            <a class="text-success" style="font-size: 12px" href="#"
+              >ادامه مطلب...</a
+            >
+          </div>
+          <div class="p-3 col-12 col-sm-6 col-xl-4 col-xxl-2 text-center">
+            <img
+              src="./images/code.jpeg"
+              alt="Image 1"
+              class="rounded-3"
+            />
+            <h4>متن تستی</h4>
+            <span>1402/07/02</span>
+            <p>متن آزمایشی درمورد لوگو ونحوی طراحی آن به دست بشریت.</p>
+            <a class="text-success" style="font-size: 12px" href="#"
+              >ادامه مطلب...</a
+            >
+          </div>
+          <div class="p-3 col-12 col-sm-6 col-xl-4 col-xxl-2 text-center">
+            <img
+              src="./images/code.jpeg"
+              alt="Image 1"
+              class="rounded-3"
+            />
+            <h4>متن تستی</h4>
+            <span>1402/07/02</span>
+            <p>متن آزمایشی درمورد لوگو ونحوی طراحی آن به دست بشریت.</p>
+            <a class="text-success" style="font-size: 12px" href="#"
+              >ادامه مطلب...</a
+            >
+          </div>
+          <div class="p-3 col-12 col-sm-6 col-xl-4 col-xxl-2 text-center">
+            <img
+              src="./images/code.jpeg"
+              alt="Image 2"
+              class="rounded-3"
+            />
+            <h4>متن تستی</h4>
+            <span>1402/07/02</span>
+            <p>متن آزمایشی درمورد لوگو ونحوی طراحی آن به دست بشریت.</p>
+            <a class="text-success" style="font-size: 12px" href="#"
+              >ادامه مطلب...</a
+            >
+          </div>
+          <div class="p-3 col-12 col-sm-6 col-xl-4 col-xxl-2 text-center">
+            <img
+              src="./images/code.jpeg"
+              alt="Image 3"
+              class="rounded-3"
+            />
+            <h4>متن تستی</h4>
+            <span>1402/07/02</span>
+            <p>متن آزمایشی درمورد لوگو ونحوی طراحی آن به دست بشریت.</p>
+            <a class="text-success" style="font-size: 12px" href="#"
+              >ادامه مطلب...</a
+            >
+          </div>
+          <div class="p-3 col-12 col-sm-6 col-xl-4 col-xxl-2 text-center">
+            <img
+              src="./images/code.jpeg"
+              alt="Image 4"
+              class="rounded-3"
+            />
+            <h4>متن تستی</h4>
+            <span>1402/07/02</span>
+            <p>متن آزمایشی درمورد لوگو ونحوی طراحی آن به دست بشریت.</p>
+            <a class="text-success" style="font-size: 12px" href="#"
+              >ادامه مطلب...</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Weblog -->
+
+    <!-- Start footer -->
+    <footer x-data="FooterApp">
+      <div class="top-wave">
+        <svg xmlns="" viewBox="0 0 1366 65.6">
+          <path
+            d="M0,9.2c156.1-22,468.3,0,683,18,175.6,17,507.4,7.5,683-20v50H0"
+            style="fill: #00aab2"
+          ></path>
+          <path
+            d="M0,29.2c156.1-18,448.8-12,683,7,156.1,13,507.4,17,683-5V65.6H0Z"
+            style="fill: #505462"
+          ></path>
+        </svg>
+      </div>
+      <div class="p-4">
+        <div class="main-wrapper">
+          <div class="nav">
+            <div class="nav-group">
+              <div class="title">لوگو فروش</div>
+              <div class="nav-list">
+                <a href="#">صفحه اصلی</a>
+                <a href="#">درباره ما</a>
+                <a href="#">ارتباط با ما</a>
+                <a href="#">سوالات متداول</a>
+                <a href="#">وبلاگ و اخبار</a>
+              </div>
+            </div>
+            <div class="nav-group">
+              <div class="title">محصولات و سفارش</div>
+              <ul class="nav-list">
+                <a href="#">برند تولیدکنندگان</a>
+                <a href="#">دسته‌بندی محصولات</a>
+                <a href="#">برچسب‌های موضوعی</a>
+                <a href="#">پکیج‌ محصولات</a>
+                <a href="#">لیست همه محصولات</a>
+              </ul>
+            </div>
+          </div>
+          <div class="contact">
+            <div class="call" dir="ltr">
+              <div class="label">:با ما در تماس باشید</div>
+              <a href="" class="theme-btn btn-phosphor-green ltr"
+                ><i class="fas fa-phone icon"></i
+                ><span class="number">+۹۸-۹۱۸۵۰۹۱۹۱۵</span></a
+              >
+            </div>
+            <div class="social-networks">
+              <div class="label">
+                لوگو فروش را در شبکه‌های اجتماعی دنبال کنید:
+              </div>
+              <div class="list">
+                <a href="#" target="_blank" class="option"
+                  ><img style="width: 30px" src="./images/instagram.png" alt=""
+                /></a>
+                <a href="#" target="_blank" class="option"
+                  ><img style="width: 30px" src="./images/telegram.png" alt=""
+                /></a>
+                <a href="#" target="_blank" class="option"
+                  ><img style="width: 30px" src="./images/whatsapp.png" alt=""
+                /></a>
+                <a href="#" target="_blank" class="option"
+                  ><img style="width: 30px" src="./images/robika.png" alt=""
+                /></a>
+                <a href="#" target="_blank" class="option"
+                  ><img style="width: 30px" src="./images/eita.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="certificate-slogan">
+            <div class="certificates">
+              <a href="#" target="_blank">
+                <img src="./images/f-1.png" alt="E-Namad" />
+              </a>
+              <a href="#" target="_blank">
+                <img src="./images/f-2.png" alt="Samandehi" />
+              </a>
+            </div>
+            <div class="slogan">
+              <span>توزیع آرامش در تأمین شعار ماست</span>
+            </div>
+          </div>
+        </div>
+        <div class="info-wrapper">
+          <div class="introduction">
+            <img src="./images/logo.png" alt="" />
+            <div class="description">
+              <p>
+                مجموعه لوگو فروش با به‌کارگیری کادری متخصص و پاسخگو، ایجاد آرامش
+                در امر تأمین نوشت‌افزار ایرانی را مأموریت خود تعریف کرده است. در
+                همین راستا طراحی و تولید کالاهای باکیفیت و مرغوب؛ و سهولت در
+                رساندن این محصولات به فروشندگان لوازم‌التحریر را سرلوحه کار خود
+                قرار داده است.
+              </p>
+            </div>
+          </div>
+          <div class="newsletter">
+            <label for="newsletter_mobile_input"
+              >عضویت در خبرنامه و اطلاع از آخرین تخفیف‌ها:</label
+            >
+            <div class="input-wrapper">
+              <input
+                type="text"
+                id="newsletter_mobile_input"
+                class="text-center fa-num ltr"
+                placeholder="شماره تلفن همراه"
+                x-model="mobile"
+              />
+              <button class="theme-btn btn-phosphor-green">
+                <i
+                  class="fas icon fa-paper-plane"
+                  :class="isLoading ? 'fa-spinner fa-spin' : 'fa-paper-plane'"
+                ></i>
+                ثبت
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-signature">
+        <div class="copyright fa-num">
+          © تمامی حقوق وبسایت برای... محفوظ است - 1402
+        </div>
+        <div class="signature">
+          <a href="#" target="_blank"
+            ><i
+              class="fal fa-code"
+              style="vertical-align: middle; margin-left: 3px"
+            ></i>
+            طراحی و توسعه با
+            <i class="fico fico-heart-line heart"></i>
+            توسط
+            <span class="mhy">Mohammadjt2</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

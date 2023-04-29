@@ -1,0 +1,731 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/font-awesome/all.min.css" />
+    <link rel="stylesheet" href="./css/Bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/Responsive.css" />
+    <title>لوگو فروش</title>
+  </head>
+  <body dir="rtl">
+    <!-- Start Navbar -->
+    <nav class="d-fle">
+      <div
+        class="d-flex justify-content-md-around justify-content-between align-items-center p-2"
+      >
+        <div class="d-flex justify-content-around align-items-center">
+          <span>
+            <img
+              src="./images/logo.png"
+              alt="logo"
+              class="cursor-pointer"
+              height="55"
+            />
+          </span>
+          <span>
+            <ul
+              class="justify-content-around align-items-start m-0 gap-3 d-none d-md-flex"
+              style="color: #007aff"
+            >
+              <li class="cursor-pointer list">
+                <a href="./index.html">خانه</a>
+              </li>
+              <li class="cursor-pointer list">
+                <a href="./blog.html">بلاگ</a>
+              </li>
+              <li class="cursor-pointer sub list">
+                <a href="./shop.html">دسته بندی ها</a>
+                <i class="fas fa-angle-down" style="font-size: 12px"></i>
+                <div class="submenu">
+                  <ul>
+                    <li><a href="./product.html">رایگان</a></li>
+                    <li><a href="./product.html">انتزاعی</a></li>
+                    <li><a href="./product.html">اشیاء</a></li>
+                    <li><a href="./product.html">متفرقه</a></li>
+                    <li><a href="./product.html">جذابترین ها</a></li>
+                    <li><a href="./product.html">تایپوگرافی</a></li>
+                    <li><a href="./product.html">مجموعه</a></li>
+                    <li><a href="./product.html">گردینت و چند رنگ</a></li>
+                    <li><a href="./product.html">تایپوگرافی</a></li>
+                    <li><a href="./product.html">گل و برگ</a></li>
+                    <li><a href="./product.html">حیوانات و پرندگان</a></li>
+                    <li><a href="./product.html">لوگوی تصویری</a></li>
+                    <li><a href="./product.html">لوگوی اشکال هندسی</a></li>
+                    <li><a href="./product.html">مشاغل</a></li>
+                    <li><a href="./product.html">خانه و درخت</a></li>
+                    <li><a href="./product.html">لوگو های سمبلیک</a></li>
+                    <li><a href="./product.html">پربازدیدترین ها</a></li>
+                    <li><a href="./product.html">شخصیت انسانی</a></li>
+                    <li><a href="./product.html">ورزشی</a></li>
+                    <li><a href="./product.html">لوگوهای ترکیبی</a></li>
+                    <li><a href="./product.html">سیاه و سفید</a></li>
+                    <li><a href="./product.html">میوه ها و سبزی ها</a></li>
+                    <li><a href="./product.html">حشرات</a></li>
+                    <li><a href="./product.html">لوگو آیکن</a></li>
+                    <li><a href="./product.html">لوگوهای اختصاری</a></li>
+                    <li><a href="./product.html">لاکچری</a></li>
+                    <li><a href="./product.html">کارت ویزیت</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="cursor-pointer list">
+                <a href="about-us.html">درباره ما</a>
+              </li>
+              <li class="cursor-pointer list">
+                <a href="contact-us.html">تماس با ما</a>
+              </li>
+            </ul>
+          </span>
+        </div>
+        <div
+          class="d-flex justify-content-around align-items-center gap-3 position-relative"
+        >
+          <i
+            class="fas fa-list-ul cursor-pointer d-block d-md-none"
+            onclick="toggleActive()"
+          ></i>
+          <div class="search-icon">
+            <i class="fa fa-search"></i>
+          </div>
+
+          <div class="search-modal">
+            <div
+              class="search-modal-content d-flex flex-column justify-content-center py-3 px-5"
+              style="border-radius: 10px; width: 80%; background-color: #e9ecef"
+            >
+              <input
+                type="text"
+                placeholder="دنبال چی هستی؟"
+                class="p-2 rounded-2 m-1"
+                style="border: 2px solid #505462"
+              />
+              <button class="bg-primary p-2 rounded-2 m-1" style="color: #fff">
+                جستجو کن
+              </button>
+            </div>
+          </div>
+          <a href="./cart.html" style="color: #000000">
+            <i class="far fa-shopping-cart cursor-pointer"></i>
+          </a>
+          <span
+            class="bg-primary text-light rounded-circle px-1 position-absolute"
+            style="font-size: 10px; left: 145; top: 0"
+            >2</span
+          >
+          <button
+            class="bg-primary border-0 px-3 py-1 text-light rounded"
+            style="font-size: 16px"
+          >
+            <a href="./log-in.html" class="log"> ورود و عضویت</a>
+          </button>
+        </div>
+      </div>
+      <div id="nav-menu" style="display: none">
+        <ul style="color: #007aff">
+          <li class="cursor-pointer pt-2 list">
+            <a href="./index.html">خانه</a>
+          </li>
+          <hr />
+          <li class="cursor-pointer list"><a href="./blog.html">بلاگ</a></li>
+          <hr />
+          <li class="cursor-pointer list" onclick="toggleActivesSub2()">
+            <a href="./shop.html">دسته بندی ها</a>
+            <i class="fas fa-angle-down" style="font-size: 12px"></i>
+            <div class="submenu2">
+              <ul>
+                <a href="#" href=""></a>
+                <li><a href="./product.html">رایگان</a></li>
+                <li><a href="./product.html">انتزاعی</a></li>
+                <li><a href="./product.html">اشیاء</a></li>
+                <li><a href="./product.html">متفرقه</a></li>
+                <li><a href="./product.html">جذابترین ها</a></li>
+                <li><a href="./product.html">تایپوگرافی</a></li>
+                <li><a href="./product.html">مجموعه</a></li>
+                <li><a href="./product.html">گردینت و چند رنگ</a></li>
+                <li><a href="./product.html">تایپوگرافی</a></li>
+                <li><a href="./product.html">گل و برگ</a></li>
+                <li><a href="./product.html">حیوانات و پرندگان</a></li>
+                <li><a href="./product.html">لوگوی تصویری</a></li>
+                <li><a href="./product.html">لوگوی اشکال هندسی</a></li>
+                <li><a href="./product.html">مشاغل</a></li>
+                <li><a href="./product.html">خانه و درخت</a></li>
+                <li><a href="./product.html">لوگو های سمبلیک</a></li>
+                <li><a href="./product.html">پربازدیدترین ها</a></li>
+                <li><a href="./product.html">شخصیت انسانی</a></li>
+                <li><a href="./product.html">ورزشی</a></li>
+                <li><a href="./product.html">لوگوهای ترکیبی</a></li>
+                <li><a href="./product.html">سیاه و سفید</a></li>
+                <li><a href="./product.html">میوه ها و سبزی ها</a></li>
+                <li><a href="./product.html">حشرات</a></li>
+                <li><a href="./product.html">لوگو آیکن</a></li>
+                <li><a href="./product.html">لوگوهای اختصاری</a></li>
+                <li><a href="./product.html">لاکچری</a></li>
+                <li><a href="./product.html">کارت ویزیت</a></li>
+              </ul>
+            </div>
+          </li>
+          <hr />
+          <li class="cursor-pointer list">
+            <a href="about-us.html">درباره ما</a>
+          </li>
+          <hr />
+          <li class="cursor-pointer list">
+            <a href="contact-us.html">تماس با ما</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Main -->
+    <section>
+      <div class="p-1 bg-primary text-light">
+        <div class="container">
+          <h2 class="p-3 bg-primary">محصول</h2>
+        </div>
+      </div>
+
+      <div
+        class="container-md py-4 d-block d-lg-flex justify-content-between align-items-center"
+      >
+        <div>
+          <h3 class="text-center">مجموعه طرح های لایه باز کارت ویزیت</h3>
+          <div
+            class="d-sm-flex d-lg-block justify-content-between align-items-center gap-1"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center py-5 gap-0"
+            >
+              <button type="submit" class="btn bg-body-secondary py-4">
+                <a href="#" style="color: #000000">20,000 تومان</a>
+              </button>
+              <button type="submit" class="btn btn-primary py-4">
+                <a href="#" style="color: #fff">اضافه به سبد خرید</a>
+              </button>
+            </div>
+            <div class="d-flex justify-content-center align-items-center">
+              <button type="submit" class="btn btn-success py-4 px-5">
+                <a href="#" style="color: #fff">ارزانتر از همه جا خرید کنید</a>
+              </button>
+            </div>
+          </div>
+          <br />
+          <hr />
+          <br />
+          <div class="d-flex justify-content-center align-items-center">
+            <button
+              type="submit"
+              onclick="toggleActiveProduct(event)"
+              class="btn bg-body-secondary btn-block py-5 px-5 rounded-5"
+            >
+              <a href="#" style="color: #000000">سفارشی سازی این طرح</a>
+            </button>
+          </div>
+        </div>
+        <div>
+          <img
+            src="./images/code.jpeg"
+            alt="product"
+            class="pt-3 d-flex justify-content-center align-items-center m-auto product-img"
+          />
+          <div
+            style="font-size: 14px"
+            class="d-flex justify-content-between align-items-center py-1 px-5 bg-body-secondary"
+          >
+            <span>85m</span>
+            <span style="color: red">|</span>
+            <span>PHOTOSHOP</span>
+            <span style="color: red">|</span>
+            <span>PSD/AI</span>
+            <span style="color: red">|</span>
+            <span>1450*2500</span>
+          </div>
+        </div>
+      </div>
+      <div class="m-3" style="font-size: 18px; display: none" id="sub">
+        <div
+          class="container-md bg-body-secondary rounded-3 py-md-4 px-md-5"
+          style="color: #000000"
+        >
+          <div class="row">
+            <div class="col-md-12 offset-md-6 p-4">
+              <form>
+                <div>
+                  <div class="form-group">
+                    <label for="name" class="py-2">نام :</label>
+                    <input
+                      type="text"
+                      class="form-control p-2"
+                      id="name"
+                      required
+                      placeholder="نام را وارد کنید"
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="contact" class="py-2"
+                      >نحوی ارتباط با شما :</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control p-2"
+                      id="contact"
+                      required
+                      placeholder="راه ارتباطی را وارد کنید"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="changes" class="pt-5 pb-2"
+                    >تغییراتی که مایل هستید بر روی این طرح برایتان انجام دهیم
+                    :</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="changes"
+                    rows="8"
+                    placeholder="تغییرات را وارد کنید"
+                  ></textarea>
+                </div>
+                <div
+                  class="d-md-flex g-4 d-block justify-content-between align-items-center pt-4"
+                >
+                  <div>در کمترین زمان ممکن به درخواستتان پاسخ خواهیم داد.</div>
+                  <button
+                    type="submit"
+                    class="btn btn-primary btn-block btn-second"
+                  >
+                    ارسال درخواست
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <hr class="w-75 m-auto" />
+      <br />
+      <h2 class="text-center py-3">طرح های مرتبط</h2>
+      <div class="container-fluid">
+        <div class="row px-xl-5">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 pt-3">
+            <div class="card">
+              <img src="./images/code.jpeg" alt="Card Image" />
+              <div class="card-details">
+                <h5>عنوان کارت</h5>
+                <p>توضیحات کارت</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul
+          class="pagination d-flex justify-content-center align-items-center py-5"
+        >
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">قبلی</a>
+          </li>
+          <li class="page-item active"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">بعدی</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- End Main -->
+
+    <!-- Start footer -->
+    <footer x-data="FooterApp">
+      <div class="top-wave">
+        <svg xmlns="" viewBox="0 0 1366 65.6">
+          <path
+            d="M0,9.2c156.1-22,468.3,0,683,18,175.6,17,507.4,7.5,683-20v50H0"
+            style="fill: #00aab2"
+          ></path>
+          <path
+            d="M0,29.2c156.1-18,448.8-12,683,7,156.1,13,507.4,17,683-5V65.6H0Z"
+            style="fill: #505462"
+          ></path>
+        </svg>
+      </div>
+      <div class="p-4">
+        <div class="main-wrapper">
+          <div class="nav">
+            <div class="nav-group">
+              <div class="title">لوگو فروش</div>
+              <div class="nav-list">
+                <a href="#">صفحه اصلی</a>
+                <a href="#">درباره ما</a>
+                <a href="#">ارتباط با ما</a>
+                <a href="#">سوالات متداول</a>
+                <a href="#">وبلاگ و اخبار</a>
+              </div>
+            </div>
+            <div class="nav-group">
+              <div class="title">محصولات و سفارش</div>
+              <ul class="nav-list">
+                <a href="#">برند تولیدکنندگان</a>
+                <a href="#">دسته‌بندی محصولات</a>
+                <a href="#">برچسب‌های موضوعی</a>
+                <a href="#">پکیج‌ محصولات</a>
+                <a href="#">لیست همه محصولات</a>
+              </ul>
+            </div>
+          </div>
+          <div class="contact">
+            <div class="call" dir="ltr">
+              <div class="label">:با ما در تماس باشید</div>
+              <a href="" class="theme-btn btn-phosphor-green ltr"
+                ><i class="fas fa-phone icon"></i
+                ><span class="number">+۹۸-۹۱۸۵۰۹۱۹۱۵</span></a
+              >
+            </div>
+            <div class="social-networks">
+              <div class="label">
+                لوگو فروش را در شبکه‌های اجتماعی دنبال کنید:
+              </div>
+              <div class="list">
+                <a href="#" target="_blank" class="option"
+                  ><img style="width: 30px" src="./images/instagram.png" alt=""
+                /></a>
+                <a href="#" target="_blank" class="option"
+                  ><img style="width: 30px" src="./images/telegram.png" alt=""
+                /></a>
+                <a href="#" target="_blank" class="option"
+                  ><img style="width: 30px" src="./images/whatsapp.png" alt=""
+                /></a>
+                <a href="#" target="_blank" class="option"
+                  ><img style="width: 30px" src="./images/robika.png" alt=""
+                /></a>
+                <a href="#" target="_blank" class="option"
+                  ><img style="width: 30px" src="./images/eita.png" alt=""
+                /></a>
+              </div>
+            </div>
+          </div>
+          <div class="certificate-slogan">
+            <div class="certificates">
+              <a href="#" target="_blank">
+                <img src="./images/f-1.png" alt="E-Namad" />
+              </a>
+              <a href="#" target="_blank">
+                <img src="./images/f-2.png" alt="Samandehi" />
+              </a>
+            </div>
+            <div class="slogan">
+              <span>توزیع آرامش در تأمین شعار ماست</span>
+            </div>
+          </div>
+        </div>
+        <div class="info-wrapper">
+          <div class="introduction">
+            <img src="./images/logo.png" alt="" />
+            <div class="description">
+              <p>
+                مجموعه لوگو فروش با به‌کارگیری کادری متخصص و پاسخگو، ایجاد آرامش
+                در امر تأمین نوشت‌افزار ایرانی را مأموریت خود تعریف کرده است. در
+                همین راستا طراحی و تولید کالاهای باکیفیت و مرغوب؛ و سهولت در
+                رساندن این محصولات به فروشندگان لوازم‌التحریر را سرلوحه کار خود
+                قرار داده است.
+              </p>
+            </div>
+          </div>
+          <div class="newsletter">
+            <label for="newsletter_mobile_input"
+              >عضویت در خبرنامه و اطلاع از آخرین تخفیف‌ها:</label
+            >
+            <div class="input-wrapper">
+              <input
+                type="text"
+                id="newsletter_mobile_input"
+                class="text-center fa-num ltr"
+                placeholder="شماره تلفن همراه"
+                x-model="mobile"
+              />
+              <button class="theme-btn btn-phosphor-green">
+                <i
+                  class="fas icon fa-paper-plane"
+                  :class="isLoading ? 'fa-spinner fa-spin' : 'fa-paper-plane'"
+                ></i>
+                ثبت
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-signature">
+        <div class="copyright fa-num">
+          © تمامی حقوق وبسایت برای... محفوظ است - 1402
+        </div>
+        <div class="signature">
+          <a href="#" target="_blank"
+            ><i
+              class="fal fa-code"
+              style="vertical-align: middle; margin-left: 3px"
+            ></i>
+            طراحی و توسعه با
+            <i class="fico fico-heart-line heart"></i>
+            توسط
+            <span class="mhy">Mohammadjt2</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
